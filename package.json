@@ -1,0 +1,25 @@
+{
+  "name": "htmlacademy-pink",
+  "version": "1.0.0",
+  "description": "HTML Academy Pink Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeckson/htmlacademy-pink.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeckson/htmlacademy-pink/issues"
+  },
+  "homepage": "https://github.com/zeckson/htmlacademy-pink#readme",
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-sass": "4.1.0"
+  }
+}
