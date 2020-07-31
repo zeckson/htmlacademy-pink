@@ -6,7 +6,7 @@ const del = require('del');
 const styles = () => {
   return gulp.src('sass/style.+(scss|sass)')
     .pipe(sass.sync().on('error', sass.logError))
-    .pipe(gulp.dest('build/css/style.css'))
+    .pipe(gulp.dest('build/css'))
     .pipe(browserSync.stream());
 };
 
