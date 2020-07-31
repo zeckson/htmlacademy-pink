@@ -2,17 +2,30 @@
 
 @font-face {
   font-family: "openSans";
-  src: url(../fonts/opensans.woff2);
+  src: url("../fonts/opensans.woff2");
 }
 
 @font-face {
   font-family: "openSansBold";
-  src: url(../fonts/opensansbold.woff2);
+  src: url("../fonts/opensansbold.woff2");
 }
 
 @font-face {
   font-family: "openSansLight";
-  src: url(../fonts/opensanslight.woff2);
+  src: url("../fonts/opensanslight.woff2");
+}
+
+@font-face {
+  font-family: "openSans";
+  src: url("../fonts/opensanslight.woff");
+}
+@font-face {
+  font-family: "openSansBold";
+  src: url("../fonts/opensansbold.woff");
+}
+@font-face {
+  font-family: "openSansLight";
+  src: url("../fonts/opensanslight.woff");
 }
 body {
   min-width: 320px;
