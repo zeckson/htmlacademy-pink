@@ -5,5 +5,68 @@
   padding-right: 20px;
   padding-left: 20px;
   margin: 0 auto;
-  border: gold 5px solid;
+
+  table {
+    border-collapse: collapse;
+  }
+}
+
+.offer__title {
+  position: relative;
+  width: 276px;
+  height: 98px;
+  background-color: #283645;
+  color: white;
+  text-align: center;
+  border: 3px #bec2c7 solid;
+  border-top: none;
+  border-bottom: none;
+
+  &::before {
+    content: "";
+    width: 72px;
+    height: 72px;
+    background-image: url("../img/");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+  }
+}
+
+.offer__option {
+  width: 275px;
+  height: 60px;
+  color: #283645;
+  border: 3px #bec2c7 solid;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: $font-14;
+  line-height: 30px;
+}
+
+.offer__option--yes {
+  background-image: url("../img/");
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position-x: 90%;
+  background-position-y: 50%;
+}
+
+.offer__option--no {
+  background-image: url("../img/");
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position-x: 90%;
+  background-position-y: 50%;
+}
+
+.offer__btn-list{
+  width: 320px;
+  min-height: 97px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-decor-light-grey;
 }
