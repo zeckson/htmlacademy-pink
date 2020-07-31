@@ -19,15 +19,22 @@
   font-family: "openSans";
   src: url("../fonts/opensanslight.woff");
 }
+
 @font-face {
   font-family: "openSansBold";
   src: url("../fonts/opensansbold.woff");
 }
+
 @font-face {
   font-family: "openSansLight";
   src: url("../fonts/opensanslight.woff");
 }
-body{
-  width: 900px;
-  background-color: red;
+
+body {
+  width: 320px;
+  padding: 0;
+  margin: 0 auto;
+  font-size: $font-14;
+  line-height: $line-height-24;
+  font-family: $font-family;
 }

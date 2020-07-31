@@ -1,0 +1,13 @@
+@import "../sass/variables";
+
+header {
+  width: 320px;
+  margin: 0 auto;
+  background-color: $bg-header;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-size: 320px 462px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 5px;
+  border: 5px solid gold;
+}

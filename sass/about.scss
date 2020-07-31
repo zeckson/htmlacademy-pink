@@ -1,0 +1,20 @@
+@import "../sass/variables";
+
+.about {
+  width: 320px;
+  padding-left: 0;
+  margin: 0 auto;
+    background-color: $bg-decor-light-grey;
+  min-height: 840px;
+  background-image: url("../img/iphone-screen-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position-y: 555px;
+  background-position-x: 50%;
+  border: gold 5px solid;
+
+  &::before {
+    content: "";
+    border-top: 59px white solid;
+    border-right: 320px $bg-decor-light-grey solid;
+  }
+}
