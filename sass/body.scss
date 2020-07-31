@@ -1,0 +1,24 @@
+@import "../sass/variables";
+
+@font-face {
+  font-family: "openSans";
+  src: url(../fonts/opensans.woff2);
+}
+
+@font-face {
+  font-family: "openSansBold";
+  src: url(../fonts/opensansbold.woff2);
+}
+
+@font-face {
+  font-family: "openSansLight";
+  src: url(../fonts/opensanslight.woff2);
+}
+body {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  font-size: $font-14;
+  line-height: $line-height-24;
+  font-family: $font-family;
+}

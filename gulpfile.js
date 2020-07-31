@@ -4,7 +4,7 @@ const browserSync = require('browser-sync').create();
 const del = require('del');
 
 const styles = () => {
-  return gulp.src('sass/style.+(scss|sass)')
+  return gulp.src('sass/**/*.+(scss|sass)')
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(gulp.dest('build/css/style.css'))
     .pipe(browserSync.stream());
