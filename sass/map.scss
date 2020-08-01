@@ -4,8 +4,7 @@
   position: relative;
   margin: 0 auto;
   width: 280px;
-  border: gold 5px solid;
-
+  margin-left: -20px;
   &::before {
     content: "";
     position: absolute;
