@@ -24,18 +24,12 @@ header {
   background-position-x: 20px;
 }
 
+.header__popup-button{
+    border: none;
+    padding: 0;
+    background-color: initial;
+    align-items: center;
+    margin-left: auto;
+  }
 
-.popup__btn-open {
-  border: none;
-  padding: 0;
-  background-color: initial;
-  align-items: center;
-  margin-left: auto;
-}
 
-.header__presentation {
-  background-image: url("../img/iphone-hand-mobile@1x.png");
-  background-repeat: no-repeat;
-  background-position-y: 115px;
-  padding-top: 425px;
-}
