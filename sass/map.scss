@@ -3,15 +3,15 @@
 .map {
   position: relative;
   margin: 0 auto;
-  width: 320px;
+  width: 280px;
   border: gold 5px solid;
 
   &::before {
     content: "";
     position: absolute;
     border-top: 60px white solid;
-    border-left: 165px transparent solid;
-    border-right: 165px transparent solid;
+    border-left: 160px transparent solid;
+    border-right: 160px transparent solid;
     top: 0;
     z-index: 100;
   }

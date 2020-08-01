@@ -1,7 +1,7 @@
 @import "../sass/variables";
 
 .about {
-  width: 320px;
+  width: 280px;
   padding-left: 0;
   margin: 0 auto;
   display: flex;
@@ -18,7 +18,7 @@
   &::before {
     content: "";
     border-top: 59px white solid;
-    border-right: 320px $bg-decor-light-grey solid;
+    border-right: 280px $bg-decor-light-grey solid;
   }
 }
 
@@ -31,16 +31,12 @@
     width: 280px;
     display: inline-block;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   p {
     width: 280px;
     display: inline-block;
     text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
   }
 }
 
