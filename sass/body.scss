@@ -38,10 +38,3 @@ body {
   font-family: $font-family;
 }
 
-@media (min-width: $tablet-width) {
-  width: $tablet-width;
-}
-
-@media (min-width: $desktop-width) {
-  width: $desktop-width;
-}
