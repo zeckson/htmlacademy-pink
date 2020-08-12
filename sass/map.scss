@@ -1,0 +1,17 @@
+@import "../sass/variables";
+
+.map {
+  position: relative;
+  margin: 0 auto;
+  width: 280px;
+  margin-left: -20px;
+  &::before {
+    content: "";
+    position: absolute;
+    border-top: 60px white solid;
+    border-left: 160px transparent solid;
+    border-right: 160px transparent solid;
+    top: 0;
+    z-index: 100;
+  }
+}

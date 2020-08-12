@@ -1,0 +1,50 @@
+@import "../sass/variables";
+
+.contaсt {
+  min-height: 412px;
+  width: 280px;
+  margin: 0 auto;
+  outline: gold 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+
+  a {
+    color: red;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+.contact__title {
+  h3 {
+    font-size: $font-24;
+    font-weight: $weight-light;
+    line-height: $line-height-24;
+    margin-bottom: 45px;
+    margin-top: 50px;
+  }
+}
+
+
+.contact__phone {
+  h4 {
+    text-align: center;
+  }
+}
+
+.contact__email {
+  h4 {
+    text-align: center;
+  }
+}
+
+.contact__address {
+  h4 {
+    text-align: center;
+  }
+}

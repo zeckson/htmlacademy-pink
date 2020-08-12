@@ -1,0 +1,31 @@
+@import "../sass/variables";
+
+header {
+  width: 320px;
+  margin: 0 auto;
+  outline: gold 3px solid;
+  background-color: $bg-header;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-size: 320px 462px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 5px;
+}
+
+.header__menu {
+  height: 66px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 280px;
+  background-color: $bg-header-menu;
+  display: flex;
+}
+
+.header__popup-button {
+  border: none;
+  padding: 0;
+  background-color: initial;
+  align-items: center;
+  margin-left: auto;
+}
+

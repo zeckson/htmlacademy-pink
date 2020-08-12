@@ -1,0 +1,16 @@
+@import "../sass/variables";
+
+.reviews {
+  width: 280px;
+  margin: 0 auto;
+  min-height: 205px;
+  outline: gold 3px solid;
+}
+.reviews__text-list{
+  padding-left: 0;
+}
+
+.reviews__controls{
+  display: flex;
+  justify-content: center;
+}

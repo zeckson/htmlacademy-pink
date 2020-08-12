@@ -1,0 +1,62 @@
+@import "../sass/variables";
+
+.presentation {
+  outline: gold 3px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/iphone-hand-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position-y: 115px;
+  padding-top: 425px;
+
+
+  p {
+    color: white;
+    text-align: center;
+    font-size: $font-14;
+    line-height: $line-height-24;
+    font-weight: $weight-light;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+}
+
+.presentation__title {
+  display: none;
+}
+
+.presentation__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 274px;
+  height: 50px;
+  background-color: initial;
+  border: 3px white solid;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: $weight-bold;
+  font-size: $font-18;
+}
+
+.presentation__platform-list {
+  width: 280px;
+  padding-top: 32px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0;
+  padding-bottom: 25px;
+
+  li:nth-child(1) {
+    padding-right: 37px;
+  }
+
+  li:nth-child(2) {
+    padding-right: 37px;
+  }
+}

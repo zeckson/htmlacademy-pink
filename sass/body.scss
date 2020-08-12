@@ -1,0 +1,30 @@
+@import "../sass/variables";
+
+@font-face {
+  font-family: "openSans";
+  src: url("../fonts/opensans.woff2") format("woff2"),
+       url("../fonts/opensans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "openSansBold";
+  src: url("../fonts/opensansbold.woff2") format("woff2"),
+       url("../fonts/opensansbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "openSansLight";
+  src: url("../fonts/opensanslight.woff2") format("woff2"),
+       url("../fonts/opensanslight.woff") format("woff");
+}
+
+
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  outline: gold 3px solid;
+  font-size: $font-14;
+  line-height: $line-height-24;
+  font-family: $font-family;
+}
+

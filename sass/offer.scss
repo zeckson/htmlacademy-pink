@@ -1,0 +1,46 @@
+@import "../sass/variables";
+
+.offer {
+  width: 280px;
+  margin: 0 auto;
+  outline: gold 3px solid;
+
+  table {
+    border-collapse: collapse;
+  }
+}
+
+.offer__title {
+  position: relative;
+  width: 276px;
+  height: 98px;
+  background-color: #283645;
+  color: white;
+  text-align: center;
+  border: 3px #bec2c7 solid;
+  border-top: none;
+  border-bottom: none;
+
+  &::before {
+    content: "";
+    width: 72px;
+    height: 72px;
+  }
+}
+
+.offer__option {
+  width: 275px;
+  height: 60px;
+  color: #283645;
+  border: 3px #bec2c7 solid;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: $font-14;
+  line-height: 30px;
+}
+
+.offer__controls{
+  display: flex;
+  justify-content: center;
+}
+
